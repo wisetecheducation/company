@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  text-align: center;
+  animation: changeBackground 10s infinite;
+}
+@keyframes changeBackground {
+  0% {
+    background-color: teal;
+  }
+  10% {
+    background-color: blueviolet;
+  }
+  20% {
+    background-color: tomato;
+  }
+  30% {
+    background-color: steelblue;
+  }
+  40% {
+    background-color: seagreen;
+  }
+  50% {
+    background-color: purple;
+  }
+  60% {
+    background-color: orchid;
+  }
+  70% {
+    background-color: seagreen;
+  }
+  80% {
+    background-color: sandybrown;
+  }
+  90% {
+    background-color: royalblue;
+  }
+  100% {
+    background-color: salmon;
+  }
+}
+
+.dm-sans-400 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-700 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
